@@ -1,0 +1,105 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: DigitalClock;
+}
+
+
+body {
+    margin: 0;
+    background-color: #25316D;
+    
+    
+    
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    
+    text-align: center;
+    width: 575px;
+    height: 385px;
+    color: white
+    
+}
+
+.title{
+    width: 149px;
+height: 36px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+margin-bottom: 21px;
+color: #EEEEEE;
+
+
+    
+}
+
+#home-score,#guest-score{
+   width: 117px;
+   height: 120px; 
+   font-family: 'digitalClock';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    background: #080001;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px auto 26px auto;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: #F94F6D;
+
+
+}
+
+/* #guest-score{
+   width: 117px;
+   height: 120px; 
+   font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    background: #080001;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px auto 26px auto;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: #F94F6D;
+} */
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
+    width: 45px;
+    height: 45px;
+    font-family: 'digitalClock';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    border: 2.5px solid #9AABD8;
+    border-radius: 5px;
+    text-align: center;
+    color: #9AABD8;
+    background-color: #25316D;
+    
+
+}
+
+#btn2, #btn5{
+    margin-left: 9px;
+     margin-right: 9px;
+}
+
